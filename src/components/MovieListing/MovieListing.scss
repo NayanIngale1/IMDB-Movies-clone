@@ -1,0 +1,39 @@
+@import "../../common/colors.scss";
+
+.movie-list,
+.shows-list {
+  margin: 20px 0px;
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+
+// .loading {
+//   font-size: 20px;
+//   color: #ff9e00;
+//   margin: 20px auto;
+// }
+
+// .movie-container,
+// .shows-container {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//   grid-gap: 15px;
+// }
+
+.loading {
+  height: 200px;
+  display: flex;
+  color: #ff9e00;
+  z-index: 9998;
+  align-items: center;
+  justify-content: center;
+}
+.loading span {
+  font-size: 60px;
+}
+.listing_error{
+color:$font-primary
+}
